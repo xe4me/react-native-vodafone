@@ -1,16 +1,20 @@
 ## Code Challenge for Vodafone, written in ReactNative.
 
 ## To run the application : 
-1- `npm run start / yarn start`
-
-2- `yarn ios`
+```sh 
+npm run start/yarn start
+yarn ios
+```
 
 ##To run the test:  
-1- Make sure all the requirements are met in your local, based on Detox official docs  https://github.com/wix/Detox/blob/master/docs/Introduction.GettingStarted.md
 
-2- `yarn build`
+Make sure all the requirements are met in your local, based on Detox official docs  [Detox]
 
-3- `yarn test`
+
+```sh 
+yarn build
+yarn test
+```
 
 
 ##Assumptions: 
@@ -22,7 +26,7 @@
 3- To choose the right library for navigation, there are many things to consider, but in the absence of enough time, below is my findings: 
 
 
-###`React Navigation`
+###[React-Navigation]
 
 
 ####Pros :
@@ -43,7 +47,7 @@
 
 
 
-###`React Native Navigation` 
+###[React-Native-Navigation]
 
 
 ####Pros:
@@ -70,3 +74,6 @@
 
 
 
+[Detox]: <https://github.com/wix/Detox/blob/master/docs/Introduction.GettingStarted.md>
+[React-Navigation]: <https://reactnavigation.org/>
+[React-Native-Navigation]: <https://github.com/wix/react-native-navigation/>
